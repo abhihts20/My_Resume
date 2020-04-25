@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=no">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="css/styles.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap"
+          rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(window).on('scroll', function () {
+            if ($(window).scrollTop()) {
+                $('nav').addClass('black');
+            } else {
+                $('nav').removeClass('black');
+            }
+        });
+        /*menu button onclick function*/
+        $(document).ready(function () {
+            $('.menu h4').click(function () {
+                $("nav ul").toggleClass("active")
+            })
+        })
+    </script>
+</head>
+<body>
+<div class="responsive-bar">
+    <div class="logo">
+        <img src="images/abhinav.png" alt="logo"/>
+    </div>
+    <div class="menu">
+        <h4>Menu</h4>
+    </div>
+</div>
+<nav>
+    <div class="logo">
+        <img class="img-fluid" src="images/abhinav.png" alt="logo"/>
+    </div>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#Home">Profile</a></li>
+        <li><a href="#Education">Education</a></li>
+        <li><a href="#Internship">Internship</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#Certficates">Certificates</a></li>
+        <li><a href="#Contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="sec1">
+    <h1 class="name">I am Abhinav Varshney</h1>
+    <h2 class="designation">Software Engineer</h2>
+</section>
+
+<!--------------------------------About------------------------>
+<section id="Home">
+    <div class="container-fluid" style="background-color: bisque;background-size: cover;height: 100vh;">
+        <div class="content">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="heading">Profile</h2>
+            <img id="mypic" src="images/abhinavprof.png" alt="Profile">
+        </div>
+    </div>
+</section>
+<section id="Education">
+    <div class="container-fluid" style="background-color: darkseagreen;background-size: cover;height: 100vh;">
+        <div class="content">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="heading">Education</h2>
+
+        </div>
+    </div>
+</section>
+<section id="Internship">
+    <div class="container-fluid" style="background-color: #16A085;background-size: cover;height: 100vh;">
+        <div class="content">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="heading">Internship</h2>
+
+        </div>
+    </div>
+</section>
+<section id="Skills">
+    <div class="container-fluid" style="background-color: #34495E;background-size: cover;height: 100vh;">
+        <div class="content">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="heading" style="color: white">Skills</h2>
+            <div class="skill-row">
+                <div class="skills-row">
+                    <div class="skillbar clearfix" data-percent="75%">
+                        <div class="skillbar-title" style="background: #d35400;"><span>C</span></div>
+                        <div class="skillbar-bar" style="background: #e67e22;"></div>
+                        <div class="skill-bar-percent">75%</div>
+                    </div>
+                </div>
+                <div class="skills-row">
+                    <div class="skillbar clearfix " data-percent="80%">
+                        <div class="skillbar-title" style="background: #2980b9;"><span>Core Java</span></div>
+                        <div class="skillbar-bar" style="background: #3498db;"></div>
+                        <div class="skill-bar-percent">80%</div>
+                    </div>
+                </div>
+                <div class="skills-row">
+                    <div class="skillbar clearfix " data-percent="50%">
+                        <div class="skillbar-title" style="background: #2c3e50;"><span>Android</span></div>
+                        <div class="skillbar-bar" style="background: #2c3e50;"></div>
+                        <div class="skill-bar-percent">50%</div>
+                    </div>
+                </div>
+                <div class="skills-row">
+                    <div class="skillbar clearfix" data-percent="40%">
+                        <div class="skillbar-title" style="background: #46465e;"><span>Python</span></div>
+                        <div class="skillbar-bar" style="background: #5a68a5;"></div>
+                        <div class="skill-bar-percent">40%</div>
+                    </div>
+                </div>
+                <div class="skills-row">
+                    <div class="skillbar clearfix " data-percent="60%">
+                        <div class="skillbar-title" style="background: #333333;"><span>DBMS</span></div>
+                        <div class="skillbar-bar" style="background: #525252;"></div>
+                        <div class="skill-bar-percent">60%</div>
+                    </div>
+                </div>
+                <div class="skills-row">
+                    <div class="skillbar clearfix " data-percent="70%">
+                        <div class="skillbar-title" style="background: #27ae60;"><span>SQL</span></div>
+                        <div class="skillbar-bar" style="background: #2ecc71;"></div>
+                        <div class="skill-bar-percent">70%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="Projects">
+    <div class="container-fluid" style="background-color: #3498DB;background-size: cover;height: 100vh;">
+        <div class="content">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="heading">Projects</h2>
+
+        </div>
+    </div>
+</section>
+
+
+</body>
+<script src="js/progressBar.js"></script>
+<script src="js/smooth-scroll.js"></script>
+<script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+</html>
